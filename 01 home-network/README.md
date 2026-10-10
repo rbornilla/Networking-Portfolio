@@ -47,8 +47,6 @@ Client device → Wi-Fi AP / Switch → Home-Router → Home-Modem → ISP-Cloud
 - Ping/browse to the Internet-Server from the PC
 - Confirm wireless devices connect to the AP and receive an IP
 
-(Add screenshots of your results to `images/`)
-
 ## What I Learned
 - How a home network connects to an ISP through a modem and router
 - The roles of the router (gateway), switch (wired LAN), and access point (wireless)
