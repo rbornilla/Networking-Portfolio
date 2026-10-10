@@ -26,5 +26,3 @@ routing handled by a router subinterface setup and DHCP served per VLAN.
 - How 802.1Q tagging lets one link carry multiple VLANs
 - How router subinterfaces route between VLANs
 
-## Lab File
-[vlan-intervlan.pkz](vlan-intervlan.pkz) (built with Packet Tracer [your version])
