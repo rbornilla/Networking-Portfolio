@@ -47,11 +47,20 @@ Client device → Wi-Fi AP / Switch → Home-Router → Home-Modem → ISP-Cloud
 - Ping/browse to the Internet-Server from the PC
 - Confirm wireless devices connect to the AP and receive an IP
 
+## Troubleshooting
+
+| Problem | Cause | Fix |
+|---|---|---|
+| Could reach the ISP router but not the Internet-Server when pinging 8.8.8.8 | Packet Tracer is a simulation, so 8.8.8.8 does not exist unless a device is configured with it | Assigned a public IP address (e.g., 203.0.113.10) to the Internet-Server and tested connectivity to that address instead |
+
 ## What I Learned
 - How a home network connects to an ISP through a modem and router
 - The roles of the router (gateway), switch (wired LAN), and access point (wireless)
 - Basic IP addressing and subnetting for a /24 network
-- [Add your own: any problems you ran into and how you fixed them]
+- Packet Tracer simulates its own network and cannot reach real internet addresses, so
+  every destination I test has to be a device I have configured in the lab
+- Troubleshooting connectivity step by step: confirmed I could reach the ISP router first,
+  then isolated the problem to the destination address
 
 ## Future Improvements
 - Add VLANs to separate guest and trusted devices
